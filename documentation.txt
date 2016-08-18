@@ -1,0 +1,14 @@
+1. настоит базу в /config/db.php
+    ...
+     'dsn' => 'mysql:host=localhost;dbname={ИМЯ БАЗЫ}',
+     'username' => '{ПОЛЬЗОВАТЕЛЬ}',
+     'password' => '{ПАРОЛЬ}',
+
+
+2. для создания и заполнения таблиц запустит
+    yii migrate/up
+
+
+источник ингредиентов
+http://www.povarenok.ru/wiki/spisokingredient
+
